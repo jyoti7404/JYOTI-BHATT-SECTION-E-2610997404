@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World Map Explorer</title>
+    </head>
+
+<body>
+
+    <h1>World Map Explorer</h1>
+
+    <p>
+        Click on different regions of the map to explore information
+        about different countries.
+    </p>
+
+    <div class="map-container">
+
+        <!-- WORLD MAP -->
+        <img
+            src="world_map_image_mapping_940x477.png"
+            width="940"
+            height="477"
+            usemap="#world-map"
+            alt="World Map for Exploration"
+        >
+          <!-- IMAGE MAP -->
+        <map name="world-map">
+
+
+    <!-- USA - RECTANGLE -->
+<area shape="rect"
+      coords="144,115,298,200"
+      href="https://en.wikipedia.org/wiki/United_States"
+      alt="United States of America"
+      target="_blank">
+
+<!-- UK - CIRCLE -->
+<area shape="circle"
+      coords="462,99,10"
+      href="https://en.wikipedia.org/wiki/United_Kingdom"
+      alt="United Kingdom"
+      target="_blank">
+
+<!-- INDIA - POLYGON -->
+<area shape="poly"
+      coords="648,201,
+              653,200,
+              659,206,
+              663,212,
+              671,214,
+              678,209,
+              684,214,
+              695,206,
+              700,194,
+              710,188,
+              715,197,
+              710,207,
+              701,211,
+              692,220,
+              687,230,
+              679,247,
+              671,253,
+              666,240,
+              661,227,
+              655,214"
+      href="https://en.wikipedia.org/wiki/India"
+      alt="India"
+      target="_blank">
+
+<!-- DEFAULT -->
+<area shape="default"
+      href="https://en.wikipedia.org/wiki/World"
+      alt="Rest of the World"
+      target="_blank">
