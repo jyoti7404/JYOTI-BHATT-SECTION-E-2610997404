@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form</title>
+</head>
+<body>
+    <h1>-----Online Registration Form-----</h1>
+    <form>
+        <label for="form1">Student Name</label>
+        <input type="text" id="form1" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+        <label for="form2">Email Address</label>
+        <input type="email" id="form2" placeholder="Enter Your Email" required>
+        <br>
+        <br>
+        <label for="form3">Mobile Number</label>
+        <input type="tel" id="form3" placeholder="Enter Your Mobile Number" required>
+        <br>
+        <br>
+        <label for="form4">Age</label>
+        <input type="number" id="form4" placeholder="Enter Your Age" required>
+        <br>
+        <br>
+        <label for="form5">Password</label>
+        <input type="password" id="form5" placeholder="Enter Your Password" required>
+        <br>
+        <br>
+        <label>Gender:</label>
+        <label for="form6">Male</label>
+        <input type="radio" id="male" name="form6">
+        <label for="form6">Female</label>
+        <input type="radio" id="female" name="form6">
+        <label for="form6">Other</label>
+        <input type="radio" id="other" name="form6">
+        <br>
+        <br>
+        <label for="skills">Skills:</label>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="html" value="html">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="css" value="css">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" id="javascript" name="javascript" value="javascript">
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" name="python" value="python">
+        <br>
+        <br>
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="web development">Web Development</option>
+            <option value="python programming">Python Programming</option>
+            <option value="data analytics">Data Analytics</option>
+            <option value="digital marketing">Digital Marketing</option>
+        </select>
+        <br>
+        <br>
+        <input type="hidden" name="form_type" value="Online Course Registration ">
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <br>
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="class time" name="class time">
+        <br>
+        <br>
+        <label for="additional-details">Additional Details:</label>
+        <textarea id="additional-details" name="additional_details" rows="5" cols="40"></textarea>
+        <br>
+        <br>
+        <label for="supporting-document">Supporting Document:</label>
+        <input type="file" id="supporting-document" name="supporting_document">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
